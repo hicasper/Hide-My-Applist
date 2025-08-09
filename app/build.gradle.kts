@@ -21,6 +21,10 @@ if (officialBuild) {
 android {
     namespace = "com.drtsng.hiddenapp"
 
+    defaultConfig {
+        applicationId = "com.drtsng.hiddenapp"
+    }
+
     buildFeatures {
         buildConfig = true
         viewBinding = true
